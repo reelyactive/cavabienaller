@@ -1,0 +1,28 @@
+{
+  "name": "hue-rainbow-loop",
+  "homepage": "https://github.com/reelyactive/cavabienaller/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Loop Hue lights through the colours of the rainbow.  We believe in an open Internet of Things.",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./huerainbowloop.js",
+  "scripts": {
+    "start": "node huerainbowloop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/cavabienaller.git"
+  },
+  "dependencies": {
+    "node-hue-api": "^2.4.6"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}

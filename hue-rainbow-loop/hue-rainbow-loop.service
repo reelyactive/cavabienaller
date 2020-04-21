@@ -1,0 +1,13 @@
+[Unit]
+Description=Philips Hue Rainbow Loop
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/reelyActive/hue-rainbow-loop
+ExecStart=/usr/local/node/bin/npm start
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
