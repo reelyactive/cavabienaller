@@ -20,21 +20,21 @@ Ensure the computer and the Philips Hue bridge are on the same network, press th
 
     node huelink
 
-If successful, copy the generated username to the HUE_BRIDGE_USERNAME constant of the config.js file.
+If successful, copy the generated username to the HUE_BRIDGE_USERNAME constant of the __config.js__ file.  The program will use this username to connect and authenticate with the Hue bridge.
 
 ### Running from the command line
 
 Using npm:
 
-   npm start
+    npm start
 
 Or alternatively:
 
-   node huerainbowloop
+    node huerainbowloop
 
 ### Running as a systemd service on the Raspberry Pi
 
-Follow the instructions in our [Raspberry Pi Tutorial](https://reelyactive.github.io/diy/pi-suite/#step03) to run as a systemd service, instead using the file hue-rainbow-loop.service
+Follow the instructions in our [Raspberry Pi Tutorial](https://reelyactive.github.io/diy/pi-suite/#step03) to run as a systemd service, instead using the file __hue-rainbow-loop.service__
 
 
 
