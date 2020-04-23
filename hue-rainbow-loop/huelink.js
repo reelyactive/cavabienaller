@@ -39,8 +39,8 @@ function linkBridge(bridges) {
  */
 function handleRegistrationResult(username) {
   console.log('\r\n----------------------------------------------------------');
-  console.log('Successfully registered user.  Save the following username.');
-  console.log('  Username:', username);
+  console.log('Successfully registered user. Save the following username.');
+  console.log('---> Username:', username);
   console.log('----------------------------------------------------------\r\n');
 }
 
